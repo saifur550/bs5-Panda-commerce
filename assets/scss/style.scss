@@ -1,0 +1,41 @@
+/* ========================== 
+        google fonts 
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+$bg-color:#DBF6E9;
+$fonts:'Montserrat', sans-serif;
+
+body{
+    font-family: $fonts;
+}
+.navbar{
+    background-color:$bg-color !important;
+}
+
+.banner__section{
+    background-color:#4444 !important ;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+    display: none;
+}
+
+
+.product__item{
+    background-color: #F4EEE8;
+}
+
+
+.bg-color-1{
+background-color:#343A40 ;
+}
+.bg-color-2{
+background-color:#F6B8B8 ;
+}
+.bg-color-3{
+ background-color:#1EAE98 ;   
+}
