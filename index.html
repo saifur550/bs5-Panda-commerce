@@ -13,7 +13,7 @@
 <body>
      <section class="header__section">
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
               <a href="" class="navbar-brand text-white"><img src="./assets/images/logo.png" alt="" class=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +26,16 @@
                     <a href="" class="nav-link">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="" class="nav-link">Shoes</a>
+                    <a href="#shoes" class="nav-link">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a href="" class="nav-link">BackPack</a>
+                    <a href="#bagpack" class="nav-link">BackPack</a>
                   </li>
                   <li class="nav-item">
-                    <a href="" class="nav-link">Subscribe</a>
+                    <a href="#sub" class="nav-link">Subscribe</a>
                   </li>
                   <li class="nav-item">
-                    <a href="" class="nav-link">contact</a>
+                    <a href="#contact" class="nav-link">contact</a>
                   </li>
                 </ul>
               </div>
@@ -109,9 +109,9 @@
       </header>
      </section>
      
-     <section class="product__item">
+     <section class="product__item mb-4">
          <main>
-            <div class="container my-5">
+            <div class="container my-5" id="bagpack">
                 <div class="row g-4">
                   <div class="col-lg-4 col-md-6 col-12">
                     <div class="p-3 border bg-color-1 d-flex align-items-center justify-content-between rounded-3 ">
@@ -134,7 +134,7 @@
                 </div>
               </div>
               <section class="shoes__item">
-                <div class="container">
+                <div class="container" id="shoes">
                     <h1>shoes</h1>
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         <div class="col">
@@ -183,8 +183,9 @@
                       </div>
                 </div>
             </section>
+
             <section class="backpack__item ">
-                <div class="container my-5">
+                <div class="container my-5" id="sub">
                     <h1>BackPack</h1>
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         <div class="col">
@@ -230,9 +231,23 @@
                       </div>
                 </div>
             </section>
+            <section class="subscribe__section " >
+                <div class="container bg-info d-flex justify-content-center align-items-center rounded-3 " style="height: 300px";">
+                    <div class="sub__content">
+                        <h1>LET'S STAY IN TOUCH</h1>
+                        <p>Get updates on sales, specials and more</p>
+                        <input type="text" placeholder="Enter Your email"> <br> <br>
+                        <button class="btn btn-primary">submit</button>
+                    </div>
+                </div>
+            </section>
          </main>
      </section>
-
+<footer>
+    <footer class="mt-5 text-center" id="contact">
+        <p><small>©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer> 
+</footer>
      
     
       <script src="./assets/js/bootstrap.bundle.min.js"></script>
